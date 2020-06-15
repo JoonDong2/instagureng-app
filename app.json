@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "scheme": "prismagram-app",
+    "name": "prismagram-app",
+    "slug": "prismagram-app",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": "",
+    "extra": {
+      "AWS_S3_ACCESS_KEY": "<YOUR IAM ACCESS KEY>",
+      "AWS_S3_SECRET_KEY": "<YOUR IAM SECRET KEY>"
+    }
+  }
+}
