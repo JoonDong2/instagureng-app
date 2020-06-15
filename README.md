@@ -62,7 +62,6 @@ const awsmobile = {
 };
 ```
 &nbsp;
----
 # 참조
 ### [관련 포스트 목록](https://joondong.tistory.com/151)
 ### [인스타그램 클론코딩 웹 (리액트)](https://github.com/JoonDong2/instagureng-frontend)
