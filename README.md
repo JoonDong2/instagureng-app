@@ -60,6 +60,7 @@ const awsmobile = {
             "openid",
             "profile",
         ],
+        // 반드시 `Cognito > 앱 클라이언트 설정`에 저장한 주소를 입력해야 한다.
         "redirectSignIn": "exp://192.168.43.217:19000/--/", // expo clinet 사용시
         "redirectSignOut": "exp://192.168.43.217:19000/--/", // expo clinet 사용시
         "responseType": "code"
